@@ -70,3 +70,34 @@ Bayangkan kita di restoran:
 ## Contoh Alur Kerja:
 Kita (pengguna) → tulis perintah SQL → MySQL (DBMS) menerjemahkan dan mengeksekusi → basis data (tempat simpan data)
 
+
+# Apa Itu RDBMS?
+RDBMS = **Relational Database Management System** (Sistem Manajemen Basis Data Relasional)
+
+> **Untuk Mudah Diingat**: RDBMS = DBMS yang data disimpan dalam bentuk **TABEL-TABEL yang saling BERHUBUNGAN**
+
+## Penjelasan:
+RDBMS adalah **JENIS DARI DBMS** yang paling populer saat ini. Intinya: *Semua RDBMS adalah DBMS, tapi tidak semua DBMS adalah RDBMS*.
+
+Data di RDBMS disusun dalam tabel-tabel (baris dan kolom), dan tabel-tabel tersebut bisa saling berhubungan.
+
+> **Kesimpulan Singkat**: RDBMS = DBMS yang PAKE TABEL!
+
+## Contoh Hubungan Tabel:
+Misalkan kita punya 2 tabel:
+1. **Tabel karyawan**: id_karyawan, nama, umur, id_departemen
+2. **Tabel departemen**: id_departemen, nama_departemen
+
+Kedua tabel bisa dihubungkan melalui kolom `id_departemen`! Ini yang disebut "relasional".
+
+## Contoh RDBMS (semua yang ini termasuk RDBMS!):
+- MySQL
+- PostgreSQL
+- SQLite
+- Oracle Database
+- Microsoft SQL Server
+
+## Analogi:
+Bayangkan RDBMS seperti **lemari arsip yang folder-folder nya saling terhubung**:
+- Tabel karyawan punya referensi ke tabel departemen (mirip seperti lembar kertas di folder karyawan yang merujuk ke folder departemen)
+
