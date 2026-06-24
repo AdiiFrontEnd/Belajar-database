@@ -108,3 +108,20 @@
 3. **Uji query dengan SELECT sebelum mengubah data** — jalankan `SELECT` dengan kondisi yang sama sebelum eksekusi `UPDATE` atau `DELETE`.
 4. **Perhatikan tipe data saat membandingkan nilai** — membandingkan teks dengan angka atau format tanggal yang salah sering menjadi sumber bug tersembunyi.
 5. **Hindari `SELECT *` di production** — selalu sebutkan kolom yang dibutuhkan untuk menjaga performa dan kejelasan query.
+
+
+
+
+
+
+
+
+
+
+
+# Jalan Lain Lewat Buku 
+
+
+Syntax Yang Saya Bisa 
+
+``` SELECT * FROM TAB WHERE Umur <= 17 AND (NOT SKILLS = "MATH"); ```
